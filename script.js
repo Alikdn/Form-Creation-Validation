@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
     // Selecting form and feedback div
     const form = document.getElementById('registration-form');
     const feedbackDiv = document.getElementById('form-feedback');
 
     // Form submission event listener
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', function(event) {
         event.preventDefault();
 
         // Retrieving user inputs and trimming whitespace
